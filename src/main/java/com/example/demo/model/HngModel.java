@@ -12,8 +12,6 @@ public class HngModel {
     @JsonProperty("github_url")
     private String githubUrl;
 
-    public HngModel() {
-    }
 
     public HngModel(String email, String currentDateTime, String githubUrl) {
         this.email = email;
@@ -25,23 +23,15 @@ public class HngModel {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
 
     public String getCurrentDateTime() {
         return currentDateTime;
     }
 
-    public void setCurrentDateTime(String currentDateTime) {
-        this.currentDateTime = currentDateTime;
-    }
+
 
     public String getGithubUrl() {
         return githubUrl;
     }
 
-    public void setGithubUrl(String githubUrl) {
-        this.githubUrl = githubUrl;
-    }
 }
