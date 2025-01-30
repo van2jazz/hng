@@ -11,7 +11,7 @@ import java.time.format.DateTimeFormatter;
 public class HngService {
 
     private static final String EMAIL = "van2jazz@gmail.com";
-    private static final String GITHUB_URL = "https://github.com/van2jazz/your-repo";
+    private static final String GITHUB_URL = "https://github.com/van2jazz/hng";
 
     public HngModel getApiInfo() {
         String currentDatetime = Instant.now().atOffset(ZoneOffset.UTC).format(DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss'Z'"));
