@@ -31,7 +31,7 @@ public class ApplicationTest {
     void testPublicApiService() {
         HngModel response = hngService.getApiInfo();
         assert response.getEmail().equals("van2jazz@gmail.com");
-        assert response.getGithubUrl().equals("https://github.com/van2jazz/your-repo");
+        assert response.getGithubUrl().equals("https://github.com/van2jazz/hng");
         assert response.getCurrentDateTime().matches("\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z");
     }
 
@@ -40,7 +40,7 @@ public class ApplicationTest {
         mockMvc.perform(get("/api"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.email", is("van2jazz@gmail.com")))
-                .andExpect(jsonPath("$.github_url", is("https://github.com/van2jazz/your-repo")))
+                .andExpect(jsonPath("$.github_url", is("https://github.com/van2jazz/hng")))
                 .andExpect(jsonPath("$.current_datetime", matchesPattern("\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z")));
     }
 }
