@@ -11,8 +11,8 @@ A simple Spring Boot API that returns developer information in JSON format.
   
 ### Technologies Used
 
-+ Java 17+
-+ Maven 3.6+
++ Java
++ Maven 
 + Spring Boot
 + Railway (for deployment)
 
