@@ -7,7 +7,6 @@ A simple Spring Boot API that returns developer information in JSON format.
 + Returns email
 + Provides dynamically generated UTC timestamp
 + Includes the GitHub repository URL
-+ Supports CORS for cross-origin requests
   
 ### Technologies Used
 
