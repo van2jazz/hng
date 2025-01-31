@@ -58,8 +58,9 @@ GET /api
 
 This API is deployed on Railway. You can access it at:
 
-[hng-production-1736.up.railway.app/api](hng-production-1736.up.railway.app/api)
+[http://hng-production-1736.up.railway.app/api](http://hng-production-1736.up.railway.app/api)
 
 
 ## Related Links
 https://hng.tech/hire/java-developers
+[Hire Java Developers](http://hng.tech/hire/java-developers)
