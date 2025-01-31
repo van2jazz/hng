@@ -58,9 +58,7 @@ GET /api
 
 This API is deployed on Railway. You can access it at:
 
-```bash
-https://hng-production-1736.up.railway.app/api
-```
+[hng-production-1736.up.railway.app/api](hng-production-1736.up.railway.app/api)
 
 
 ## Related Links
